@@ -12,27 +12,27 @@ export default class Home extends Component {
             <>
                 <CarouselBox />
                 <Container className="text-center"> 
-                    <h2 className="text-center m-4">Our Team</h2>
+                    <h2 className="text-center m-4">У вас є проект? Давайте його обговоримо. Продумаємо. Зробимо. </h2>
                     <CardDeck className="m-4" >
                         <Card style={{}}>
                             <Card.Img variant="top"
                                 src={teamImg}/>
                             <Card.Body>
-                                <Card.Title>Developers</Card.Title>
+                                <Card.Title>Відображення сайту в пошукових системах</Card.Title>
                                 <Card.Text>
-                                    Lorem lkshglnelkmlkaglntlk
+                                    Допомагаємо правильно підібрати хостинг та підтримувати його
                                     </Card.Text>
-                                <Button variant="primary">About team</Button>
+                                <Button variant="primary">Детальніше</Button>
                             </Card.Body>
                         </Card>
                         <Card style={{}}>
 
                             <Card.Body>
-                                <Card.Title>Developers</Card.Title>
+                                <Card.Title>Адаптивність під всі пристої</Card.Title>
                                 <Card.Text>
-                                    Lorem lkshglnelkmlkaglntlk
+                                Розробка сайту у нас - це гарантія коректного його показу як на ПК, так і на всіх гаджетах сучасності!
                                     </Card.Text>
-                                <Button variant="primary">About team</Button>
+                                <Button variant="primary">Замовити дзвінок</Button>
                             </Card.Body>
                             <Card.Img variant="top"
                                 src={coderrrImg} />
@@ -41,11 +41,11 @@ export default class Home extends Component {
                             <Card.Img variant="top"
                                 src={CodingImg} />
                             <Card.Body>
-                                <Card.Title >Developers</Card.Title>
+                                <Card.Title >Аналіз сайту та його навігація </Card.Title>
                                 <Card.Text>
-                                    Lorem lkshglnelkmlkaglntlk
+                                Аналіз поточного сайту, дослідження ринку та аналіз конкурентів
                                     </Card.Text>
-                                <Button variant="primary">About team</Button>
+                                <Button variant="primary">Хочу сайт!</Button>
                             </Card.Body>
                         </Card>
                     </CardDeck>

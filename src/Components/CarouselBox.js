@@ -15,9 +15,9 @@ export default class CarouselBox extends Component {
                 src={ programmingImg }
                 alt="Programming"
                 />
-                <Carousel.Caption>
-                    <h3>Forest image</h3>
-                    <p>Lorem ipsum</p>
+                <Carousel.Caption bg="black">
+                    <h2>Створення сайтів під ключ</h2>
+                    <h3>Наше основне завдання створити сайт який буде корисний для Вас та Вашого бізнесу</h3>
                 </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
@@ -27,8 +27,8 @@ export default class CarouselBox extends Component {
                 alt="keyboards"
                 />
                 <Carousel.Caption>
-                    <h3>jgchfcjhbyfyj</h3>
-                    <p>Lorem ipsum</p>
+                    <h3>Створення та реалізація проекті</h3>
+                    <p>Сучасні фреймворки, нові та додаткові наповнення</p>
                 </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
@@ -38,8 +38,8 @@ export default class CarouselBox extends Component {
                 alt="Coder"
                 />
                 <Carousel.Caption>
-                    <h3>sr.gnnljsr g</h3>
-                    <p>Lorem ipsum</p>
+                    <h3>Пропис та деталізація кожного елемента </h3>
+                    <p>Виконуємо різні види проектів </p>
                 </Carousel.Caption>
             </Carousel.Item>
 

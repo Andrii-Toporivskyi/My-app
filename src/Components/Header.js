@@ -22,15 +22,15 @@ export default class Header extends Component {
                                 wight="30"
                                 className="d-inline-block align-top"
                                 alt="Logo"
-                            />React site
+                            />Create sites
                         </Navbar.Brand>
                         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                         <Navbar.Collapse id="responsive-navbar-nav" >
                             <Nav className="mr-auto">
-                                <Nav.Link href="/home">Home</Nav.Link>
-                                <Nav.Link href="/about">About us</Nav.Link>
-                                <Nav.Link href="/contacts">Contacts</Nav.Link>
-                                <Nav.Link href="/blog">Blog</Nav.Link>
+                                <Nav.Link href="/home">Головна</Nav.Link>
+                                <Nav.Link href="/about">Про нас</Nav.Link>
+                                <Nav.Link href="/contacts">Контакти</Nav.Link>
+                                <Nav.Link href="/blog">Блог</Nav.Link>
                             </Nav>
                             <Form inline>
                                 <FormControl
@@ -38,7 +38,7 @@ export default class Header extends Component {
                                     placeholder="Search"
                                     className="mr-sm-2"
                                 />
-                                <Button variant="outline-info">Search</Button>
+                                <Button variant="outline-info">Пошук</Button>
                             </Form>
                         </Navbar.Collapse>
                     </Container>
